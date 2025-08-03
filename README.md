@@ -18,7 +18,8 @@ A simple Flutter game designed for cognitively impaired users, where a cat jumps
 
 ## Known Issues
 
-- The game runs too fast on tablets. Adjust to use relative values instead of absolute pixel-based ones. Background and obstacle speeds need to be synchronized.
+- The game runs too fast on tablets. Adjust to use relative values instead of absolute pixel-based ones.
+- Background and obstacle speeds need to be synchronized.
 - Obstacles (**dog**, **doghouse**, **fence**, **hen**, **pond**, **basket**) should appear randomly, but not directly one after another.
 - Occasional crash occurs shortly before the end of a round, right before switching back to **start_screen**.
 - On the **reward_screen**, the **image_reward.gif** plays correctly the first time. On subsequent runs it only shows frame 1 on the second run, frame 2 on the third, frame 3 on the fourth.
